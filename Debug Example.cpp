@@ -2,6 +2,7 @@
 //
 
 #include <iostream>
+#include <time.h>
 
 using namespace std;
 
@@ -21,6 +22,11 @@ int main()
     }
     //asdasdasd
    //Example of pushing
+    int temp = 0;
+    srand(time(NULL));
+    int random = rand()%100;
+
+    cout << random << endl;
 
 }
 
